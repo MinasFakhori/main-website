@@ -1,0 +1,50 @@
+.lablel-button{
+    width: 3em;
+    height :1.5em;
+    position:absolute;
+    background: #404040;
+    border-radius: 200px;
+    transition: 0.3s;
+    display: inline;
+   right: 10px;
+    top: 10px;
+}
+
+.lablel-button:after{
+    content:"";
+    width :1em;
+    height: 1em;
+    position:absolute;
+    top : 4px;
+    left: 5px;
+    background : blue;
+    border-radius: 180px;
+    transition: 0.3s;
+}
+
+.input-button{
+    width:0; 
+    height : 0;
+    visibility: hidden;
+    
+}
+
+
+.input-button:checked + label{
+    background: #adadad;
+}
+
+
+/*ball for dark mode*/
+.input-button:checked + label::after{
+    left: 90%;
+    transform: translateX(-100%);
+    background: #ffcc89;
+    
+}
+
+.lablel-button:active:after{
+    width: 1.5em;
+    
+}
+

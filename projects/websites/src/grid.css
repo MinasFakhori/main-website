@@ -1,0 +1,60 @@
+.gridP {
+  position:relative;
+  margin-top: 0.7rem;
+  margin-bottom: 5em;
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.cellP {
+  display: block;
+  padding-bottom: 2em;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+
+
+}
+
+a:link{
+  text-decoration: none;
+
+}
+
+
+
+.text:hover{
+  display: block;
+}
+
+@media (max-width: 1023px){
+  .gridP {
+    bottom: 12%;
+    gap: 2px;
+    grid-template-columns: repeat(1, 1fr);
+
+    
+  
+  }
+
+  .cellP  {
+    display:block;
+    margin-top: 1em;
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+  }
+
+
+}
+
+
+ 

@@ -1,0 +1,24 @@
+.nav-wrapper{
+  width:100vw;
+  display: block;
+  margin-left: -7.5px;
+  justify-content: center;
+  text-align: center;
+ height: 100%;
+  background-color: #a8aaaa;
+  transition: 0.3s;
+  position: fixed;
+  border-radius: 10px;
+}
+
+body{
+  overflow: hidden;
+}
+
+
+.item{
+  
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
